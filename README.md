@@ -1,6 +1,12 @@
 # BullFrog
 Disassembler for the custom TadpoleVM architecture that was encountered in a private CTF from the team "Frog Council".
 
+```sh
+$ .\BullFrog.exe
+USAGE: BullFrog.exe <PATH_TO_DUMPED_CODE>
+$ .\BullFrog.exe C:\Users\X\dump.bin > disassembly.txt
+```
+
 # Example Output:
 ```asm
 0x0000 > MOV R1, 0x5720216f6c6c6548
